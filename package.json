@@ -1,0 +1,28 @@
+{
+  "name": "playwright-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "test": "cucumber-js test"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vigneswaran1996/playwright-jenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.41.2",
+    "@types/cucumber": "^7.0.0",
+    "@types/node": "^20.11.16",
+    "playwright": "^1.41.2"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
+}
