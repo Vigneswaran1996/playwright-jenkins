@@ -1,23 +1,28 @@
 {
-    "default": {
+
+    "default" : {
+
         "formatOptions": {
             "snippetInterface": "async-await"
         },
         "paths": [
-            "test/features/loginPage.feature"
+            "src/test/features/loginPage.feature"
         ],
+        "publicQuite": false,
         "dryRun": false,
-        "require": [
-            "test/steps/loginPage.spec.ts"
+        "require":[
+            "src/test/Steps/loginPage.spec.ts"
         ],
-        "requireModule": [ 
+        "requireModule": [
             "ts-node/register"
         ],
-        "format":[
+
+        "format" : [
             "progress-bar",
-            "html:test-results/cucumber-report.html",
-             "json:test-results/cucumber-report.json",
-             "rerun:@rerun.txt"
+            "html:test-result/cucumber-report.html"
         ]
+
+        
+        
     }
 }
